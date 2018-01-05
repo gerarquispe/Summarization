@@ -1,0 +1,3 @@
+Cluster Id:131 Nro.Elements:4
+Cluster Id:71 Nro.Elements:7
+Cluster Id:81 Nro.Elements:9

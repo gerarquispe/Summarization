@@ -1,0 +1,150 @@
+# -*- coding: utf-8 -*-
+import numpy as np
+import sys
+import os
+import glob
+import cv2
+
+from sklearn.cluster import AffinityPropagation
+from sklearn import metrics
+import matplotlib.pyplot as plt
+
+###############################################################################
+# Leyendo data
+file = open("numberTrajectory.txt","r")
+line = file.readlines()
+n, dim = [int(val) for val in line[0].split()] # read first line
+
+X = np.zeros((n,dim)) 
+cont = 0
+index = 0
+file = open("coeficientes.txt","r")
+x=[]
+y=[]
+isXcomponet = 0
+for line in file:
+    line2 = line.split(",")
+    if(isXcomponet==0):
+        #componentes en x vs t
+        X[index][0]=line2[0]
+        X[index][1]=line2[1]
+        X[index][2]=line2[2]
+        X[index][3]=line2[3]
+        X[index][4]=line2[4]
+        X[index][5]=line2[5]
+        isXcomponet=1
+    else:
+        #componentes en y vs t
+        X[index][6]=line2[0]
+        X[index][7]=line2[1]
+        X[index][8]=line2[2]
+        X[index][9]=line2[3]
+        X[index][10]=line2[4]
+        X[index][11]=line2[5]
+        isXcomponet=0
+        
+    if(cont%2==1):
+        #print(index)
+        #print(X[index])
+        index = index+1
+        
+    cont = cont+1
+    
+print("features="+str(index))
+print("readTimes="+str(cont))
+print("size of X"+str(len(X)))
+labels_true = np.zeros(n)
+
+################################################################################
+def ReadFilesClusters(file2):
+    print(file2)
+    #Leyendo file
+    file = open(file2,"r")
+    lineName = file2.split('.')
+    lineName = lineName[0].split('/')
+    print("lineName[1]="+lineName[1])
+    
+    ## Crear carpetas
+    newpath = r'C:/Users/gquis/Documents/Visual Studio 2015/Projects/Kmeans/Kmeans/clusters/'+lineName[1]
+    if not os.path.exists(newpath):
+        os.makedirs(newpath)
+
+    # Read data from files
+    file2 = open("clusters/size"+lineName[1]+".txt","r")
+    line = file2.readlines()
+    [n,dim]= [int(val) for val in line[0].split()]
+
+    dataSubCluster = np.zeros((n,dim)) # Aqui va la subdata que pertenece a un cluster
+
+    # Se tiene que mapear los Id de los clusters que entran
+    
+    IDs = np.zeros((n,),dtype=int) #IDs segun la lista grande
+    idx = 0
+    for lineG in file:
+        #print(lineG) # cada line es un numero
+        line2 = lineG.split()
+        dataSubCluster[idx]=X[int(lineG)] # Features obtenidos
+        
+        IDs[idx] = int(lineG)
+        idx = idx+1
+        
+    #print('pintandodataSubCluster')
+    #print(dataSubCluster)
+    sizeCluster=len(dataSubCluster)
+    ## Aplicar de nuevo clustering
+    ##############################################################################
+    # Se hace validacion para clusters con un elemento
+    if(sizeCluster==1):
+        cluster_centers_indices = [0]
+        #print(cluster_centers_indices)
+        labels = [0]
+        n_clusters_ = 1
+    else:
+        af = AffinityPropagation(preference=None).fit(dataSubCluster)
+        cluster_centers_indices = af.cluster_centers_indices_
+        #print(cluster_centers_indices)
+        labels = af.labels_
+        n_clusters_ = len(cluster_centers_indices)
+
+    instring = r'clusters/'+lineName[1]+'/ClustersOutPut.txt'
+    print('instring='+instring)
+    file = open(instring,"w")
+    for i in range(0,len(labels)):
+        print("labels["+str(IDs[i])+"]="+str(IDs[int(labels[i])])) #Ojo en esta parte se esta asumiendo que label toma encuenta el Id como el orden en el que entra al proceso de clustering.
+        file.write(str(IDs[int(labels[i])])+" "+ str(IDs[i]) +'\n')
+    file.close()
+
+########## Despues de este modulo se va tener que escribir alguna validacion
+## para tomar solo las carpetas que salieron con elementos en los clusters.
+## ya que los archivos para el proceso de jutar indices esta en c++ y no es posible
+# crearlos automaticamente (si es posible pero va demorar xd).
+####################### Parte donde recogemos los clusters #####################
+    file = open('clusters/'+lineName[1]+'/dim.dim',"w")
+    file.write(str(dim))
+    file.close()
+    ################Borrar los archvios .cluster .tex y .pdf ####################
+    
+    os.system('cd clusters/'+lineName[1]+'/ && del *.cluster && del *.pdf && del *.log && del *.aux && del sizecluster*')
+    
+    os.system('cd clusters/'+lineName[1]+'/ && g++ recogerElementosClusters.cpp && a.exe')
+
+   ## Presentar Clusters  creando .tex
+################################################################################
+    os.system('cd clusters/'+lineName[1]+'/ && python PresentClusters.py') # construye el archivo .tex
+           
+   ## Presentar generar PDFS
+###############################################################################
+   #Aqui si es posible ejecutamos los .tex comandos
+    os.system('cd clusters/'+lineName[1]+'/ && python generarPDF.py') # Sólo genera pdf's
+
+############################### MAIN ##########################################
+
+if __name__ == '__main__':
+    clustersFolder = 'clusters\\*.cluster'
+    idcluster = 0
+    for cfile in glob.glob(clustersFolder):
+        id = cfile.index('\\') # retorna index de '\\'
+        list1 = list(cfile)
+        list1[id]='/'          #cambiamos \ por /
+        file2 = ''.join(list1)
+        ReadFilesClusters(file2) #Mandamos en file2 la cadena de entrada.

@@ -1,0 +1,7 @@
+Cluster Id:18 Nro.Elements:1
+Cluster Id:116 Nro.Elements:1
+Cluster Id:87 Nro.Elements:2
+Cluster Id:11 Nro.Elements:3
+Cluster Id:64 Nro.Elements:6
+Cluster Id:39 Nro.Elements:7
+Cluster Id:105 Nro.Elements:8

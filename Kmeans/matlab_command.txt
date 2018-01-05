@@ -1,0 +1,8 @@
+				
+"C:\Program Files\MATLAB\R2014a\bin\matlab.exe" -nodisplay -nosplash -nodesktop -r "run('C:\Users\gquis\Documents\Visual Studio 2015\Projects\Kmeans\Kmeans\interpolation.m');"
+
+"C:\Program Files\MATLAB\R2014a\bin\matlab.exe" -nodisplay -nosplash -nodesktop -r "try, run('C:\Users\gquis\Documents\Visual Studio 2015\Projects\Kmeans\Kmeans\interpolation.m'), catch, exit, end, exit"
+
+
+
+"C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin\matlab.exe" -nodisplay -nosplash -nodesktop -r "run('C:\Users\gquis\Documents\Visual Studio 2015\Projects\Kmeans\Kmeans\interpolation.m');"
