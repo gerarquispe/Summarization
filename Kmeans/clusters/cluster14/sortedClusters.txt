@@ -1,7 +1,8 @@
-Cluster Id:19 Nro.Elements:1
-Cluster Id:180 Nro.Elements:1
-Cluster Id:68 Nro.Elements:2
-Cluster Id:170 Nro.Elements:6
-Cluster Id:69 Nro.Elements:7
-Cluster Id:21 Nro.Elements:8
-Cluster Id:152 Nro.Elements:11
+Cluster Id:34 Nro.Elements:1
+Cluster Id:90 Nro.Elements:1
+Cluster Id:83 Nro.Elements:2
+Cluster Id:91 Nro.Elements:4
+Cluster Id:209 Nro.Elements:5
+Cluster Id:146 Nro.Elements:6
+Cluster Id:182 Nro.Elements:7
+Cluster Id:210 Nro.Elements:8

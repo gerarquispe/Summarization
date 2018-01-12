@@ -1,0 +1,33 @@
+
+from string import ascii_letters
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+sns.set(style="white")
+
+# Generate a large random dataset
+rs = np.random.RandomState(330)
+rango = list(i for i in range(0,100) )
+d = pd.DataFrame(data=rs.normal(size=(12, 100)),
+                 columns=rango) # 100 datos de dimension 26
+print(d)
+# Compute the correlation matrix
+corr = d.corr()
+
+# Generate a mask for the upper triangle
+mask = np.zeros_like(corr, dtype=np.bool)
+mask[np.triu_indices_from(mask)] = True
+
+# Set up the matplotlib figure
+f, ax = plt.subplots(figsize=(110, 90))
+
+# Generate a custom diverging colormap
+cmap = sns.diverging_palette(240, 10, n=9)
+
+# Draw the heatmap with the mask and correct aspect ratio
+sns.heatmap(corr, mask=mask, cmap=cmap, vmax=.3, center=0,
+            square=True, linewidths=.5, cbar_kws={"shrink": .5})
+
+plt.show()

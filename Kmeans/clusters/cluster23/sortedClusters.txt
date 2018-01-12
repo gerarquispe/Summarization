@@ -1,7 +1,6 @@
-Cluster Id:27 Nro.Elements:1
-Cluster Id:84 Nro.Elements:1
-Cluster Id:197 Nro.Elements:4
-Cluster Id:262 Nro.Elements:4
-Cluster Id:40 Nro.Elements:5
-Cluster Id:187 Nro.Elements:6
-Cluster Id:61 Nro.Elements:11
+Cluster Id:12 Nro.Elements:1
+Cluster Id:94 Nro.Elements:1
+Cluster Id:245 Nro.Elements:1
+Cluster Id:294 Nro.Elements:4
+Cluster Id:232 Nro.Elements:9
+Cluster Id:52 Nro.Elements:10

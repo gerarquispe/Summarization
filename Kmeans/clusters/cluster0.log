@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.16)  8 DEC 2017 23:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.11)  12 JAN 2018 15:57
 entering extended mode
 **./cluster0.tex
 (cluster0.tex
 LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
@@ -23,14 +23,14 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -41,15 +41,7 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count88
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -57,6 +49,9 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\alphalph.sty"
 Package: alphalph 2016/05/16 v2.5 Convert numbers to letters (HO)
 
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\intcalc.sty"
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 ))
@@ -77,10 +72,10 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen110
 \caption@hangindent=\dimen111
 )
-\c@ContinuedFloat=\count89
+\c@ContinuedFloat=\count88
 )
-\c@subfigure=\count90
-\c@subtable=\count91
+\c@subfigure=\count89
+\c@subtable=\count90
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -95,9 +90,9 @@ Package ifvtex Info: VTeX not detected.
 ("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count92
-\Gm@cntv=\count93
-\c@Gm@tempcnt=\count94
+\Gm@cnth=\count91
+\Gm@cntv=\count92
+\c@Gm@tempcnt=\count93
 \Gm@bindingoffset=\dimen112
 \Gm@wd@mp=\dimen113
 \Gm@odd@mp=\dimen114
@@ -125,31 +120,18 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count95
+\scratchcounter=\count94
 \scratchdimen=\dimen120
 \scratchbox=\box26
-\nofMPsegments=\count96
-\nofMParguments=\count97
+\nofMPsegments=\count95
+\nofMParguments=\count96
 \everyMPshowfont=\toks16
-\MPscratchCnt=\count98
+\MPscratchCnt=\count97
 \MPscratchDim=\dimen121
-\MPnumerator=\count99
-\makeMPintoPDFobject=\count100
+\MPnumerator=\count98
+\makeMPintoPDFobject=\count99
 \everyMPtoPDFconversion=\toks17
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
@@ -157,7 +139,10 @@ Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
@@ -166,15 +151,28 @@ Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
@@ -215,102 +213,238 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<../trajectories/93.png, id=1, 1284.8pt x 803.0pt>
-File: ../trajectories/93.png Graphic file (type png)
-
-<use ../trajectories/93.png>
-Package pdftex.def Info: ../trajectories/93.png used on input line 12.
-(pdftex.def)             Requested size: 72.83794pt x 45.51906pt.
-
-<../trajectories/263.png, id=2, 1284.8pt x 803.0pt>
-File: ../trajectories/263.png Graphic file (type png)
-
-<use ../trajectories/263.png>
-Package pdftex.def Info: ../trajectories/263.png used on input line 17.
-(pdftex.def)             Requested size: 72.83794pt x 45.51906pt.
-
-<../trajectories/302.png, id=3, 1284.8pt x 803.0pt>
-File: ../trajectories/302.png Graphic file (type png)
-
-<use ../trajectories/302.png>
-Package pdftex.def Info: ../trajectories/302.png used on input line 22.
-(pdftex.def)             Requested size: 72.83794pt x 45.51906pt.
-
-<../trajectories/316.png, id=4, 1284.8pt x 803.0pt>
-File: ../trajectories/316.png Graphic file (type png)
-
-<use ../trajectories/316.png>
-Package pdftex.def Info: ../trajectories/316.png used on input line 27.
-(pdftex.def)             Requested size: 72.83794pt x 45.51906pt.
-
-<../trajectories/377.png, id=5, 1284.8pt x 803.0pt>
-File: ../trajectories/377.png Graphic file (type png)
-
-<use ../trajectories/377.png>
-Package pdftex.def Info: ../trajectories/377.png used on input line 32.
-(pdftex.def)             Requested size: 72.83794pt x 45.51906pt.
-
-<../trajectories/537.png, id=6, 1284.8pt x 803.0pt>
-File: ../trajectories/537.png Graphic file (type png)
-
-<use ../trajectories/537.png>
-Package pdftex.def Info: ../trajectories/537.png used on input line 37.
-(pdftex.def)             Requested size: 72.83794pt x 45.51906pt.
-
-<../trajectories/759.png, id=7, 1284.8pt x 803.0pt>
-File: ../trajectories/759.png Graphic file (type png)
-
-<use ../trajectories/759.png>
-Package pdftex.def Info: ../trajectories/759.png used on input line 42.
-(pdftex.def)             Requested size: 72.83794pt x 45.51906pt.
-
-<../trajectories/888.png, id=8, 1284.8pt x 803.0pt>
-File: ../trajectories/888.png Graphic file (type png)
-
-<use ../trajectories/888.png>
-Package pdftex.def Info: ../trajectories/888.png used on input line 47.
-(pdftex.def)             Requested size: 72.83794pt x 45.51906pt.
-
-<../trajectories/930.png, id=9, 1284.8pt x 803.0pt>
-File: ../trajectories/930.png Graphic file (type png)
-
-<use ../trajectories/930.png>
-Package pdftex.def Info: ../trajectories/930.png used on input line 52.
-(pdftex.def)             Requested size: 72.83794pt x 45.51906pt.
-
-<../trajectories/940.png, id=10, 1284.8pt x 803.0pt>
-File: ../trajectories/940.png Graphic file (type png)
-
-<use ../trajectories/940.png>
-Package pdftex.def Info: ../trajectories/940.png used on input line 57.
-(pdftex.def)             Requested size: 72.83794pt x 45.51906pt.
-
-<../trajectories/957.png, id=11, 1284.8pt x 803.0pt>
-File: ../trajectories/957.png Graphic file (type png)
-
-<use ../trajectories/957.png>
-Package pdftex.def Info: ../trajectories/957.png used on input line 62.
-(pdftex.def)             Requested size: 72.83794pt x 45.51906pt.
- [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <../trajectories/93.png
- (PNG copy)> <../trajectories/263.png (PNG copy)> <../trajectories/302.png (PNG
- copy)> <../trajectories/316.png (PNG copy)> <../trajectories/377.png (PNG copy
-)> <../trajectories/537.png (PNG copy)> <../trajectories/759.png (PNG copy)> <.
-./trajectories/888.png (PNG copy)> <../trajectories/930.png (PNG copy)> <../tra
-jectories/940.png (PNG copy)> <../trajectories/957.png (PNG copy)>] (cluster0.a
-ux) ) 
+<../trajectories/44.png, id=1, 1284.8pt x 803.0pt>
+File: ../trajectories/44.png Graphic file (type png)
+<use ../trajectories/44.png>
+Package pdftex.def Info: ../trajectories/44.png  used on input line 12. on inpu
+t line 12.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+12.
+<../trajectories/185.png, id=2, 1284.8pt x 803.0pt>
+File: ../trajectories/185.png Graphic file (type png)
+<use ../trajectories/185.png>
+Package pdftex.def Info: ../trajectories/185.png  used on input line 17. on inp
+ut line 17.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+17.
+<../trajectories/189.png, id=3, 1284.8pt x 803.0pt>
+File: ../trajectories/189.png Graphic file (type png)
+<use ../trajectories/189.png>
+Package pdftex.def Info: ../trajectories/189.png  used on input line 22. on inp
+ut line 22.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+22.
+<../trajectories/193.png, id=4, 1284.8pt x 803.0pt>
+File: ../trajectories/193.png Graphic file (type png)
+<use ../trajectories/193.png>
+Package pdftex.def Info: ../trajectories/193.png  used on input line 27. on inp
+ut line 27.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+27.
+<../trajectories/208.png, id=5, 1284.8pt x 803.0pt>
+File: ../trajectories/208.png Graphic file (type png)
+<use ../trajectories/208.png>
+Package pdftex.def Info: ../trajectories/208.png  used on input line 32. on inp
+ut line 32.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+32.
+<../trajectories/236.png, id=6, 1284.8pt x 803.0pt>
+File: ../trajectories/236.png Graphic file (type png)
+<use ../trajectories/236.png>
+Package pdftex.def Info: ../trajectories/236.png  used on input line 37. on inp
+ut line 37.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+37.
+<../trajectories/256.png, id=7, 1284.8pt x 803.0pt>
+File: ../trajectories/256.png Graphic file (type png)
+<use ../trajectories/256.png>
+Package pdftex.def Info: ../trajectories/256.png  used on input line 42. on inp
+ut line 42.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+42.
+<../trajectories/288.png, id=8, 1284.8pt x 803.0pt>
+File: ../trajectories/288.png Graphic file (type png)
+<use ../trajectories/288.png>
+Package pdftex.def Info: ../trajectories/288.png  used on input line 47. on inp
+ut line 47.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+47.
+<../trajectories/328.png, id=9, 1284.8pt x 803.0pt>
+File: ../trajectories/328.png Graphic file (type png)
+<use ../trajectories/328.png>
+Package pdftex.def Info: ../trajectories/328.png  used on input line 52. on inp
+ut line 52.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+52.
+<../trajectories/357.png, id=10, 1284.8pt x 803.0pt>
+File: ../trajectories/357.png Graphic file (type png)
+<use ../trajectories/357.png>
+Package pdftex.def Info: ../trajectories/357.png  used on input line 57. on inp
+ut line 57.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+57.
+<../trajectories/360.png, id=11, 1284.8pt x 803.0pt>
+File: ../trajectories/360.png Graphic file (type png)
+<use ../trajectories/360.png>
+Package pdftex.def Info: ../trajectories/360.png  used on input line 62. on inp
+ut line 62.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+62.
+<../trajectories/361.png, id=12, 1284.8pt x 803.0pt>
+File: ../trajectories/361.png Graphic file (type png)
+<use ../trajectories/361.png>
+Package pdftex.def Info: ../trajectories/361.png  used on input line 67. on inp
+ut line 67.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+67.
+<../trajectories/362.png, id=13, 1284.8pt x 803.0pt>
+File: ../trajectories/362.png Graphic file (type png)
+<use ../trajectories/362.png>
+Package pdftex.def Info: ../trajectories/362.png  used on input line 72. on inp
+ut line 72.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+72.
+<../trajectories/376.png, id=14, 1284.8pt x 803.0pt>
+File: ../trajectories/376.png Graphic file (type png)
+<use ../trajectories/376.png>
+Package pdftex.def Info: ../trajectories/376.png  used on input line 77. on inp
+ut line 77.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+77.
+<../trajectories/379.png, id=15, 1284.8pt x 803.0pt>
+File: ../trajectories/379.png Graphic file (type png)
+<use ../trajectories/379.png>
+Package pdftex.def Info: ../trajectories/379.png  used on input line 82. on inp
+ut line 82.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+82.
+<../trajectories/392.png, id=16, 1284.8pt x 803.0pt>
+File: ../trajectories/392.png Graphic file (type png)
+<use ../trajectories/392.png>
+Package pdftex.def Info: ../trajectories/392.png  used on input line 87. on inp
+ut line 87.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+87.
+<../trajectories/489.png, id=17, 1284.8pt x 803.0pt>
+File: ../trajectories/489.png Graphic file (type png)
+<use ../trajectories/489.png>
+Package pdftex.def Info: ../trajectories/489.png  used on input line 92. on inp
+ut line 92.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+92.
+<../trajectories/500.png, id=18, 1284.8pt x 803.0pt>
+File: ../trajectories/500.png Graphic file (type png)
+<use ../trajectories/500.png>
+Package pdftex.def Info: ../trajectories/500.png  used on input line 97. on inp
+ut line 97.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+97.
+<../trajectories/503.png, id=19, 1284.8pt x 803.0pt>
+File: ../trajectories/503.png Graphic file (type png)
+<use ../trajectories/503.png>
+Package pdftex.def Info: ../trajectories/503.png  used on input line 102. on in
+put line 102.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+102.
+<../trajectories/508.png, id=20, 1284.8pt x 803.0pt>
+File: ../trajectories/508.png Graphic file (type png)
+<use ../trajectories/508.png>
+Package pdftex.def Info: ../trajectories/508.png  used on input line 107. on in
+put line 107.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+107.
+<../trajectories/552.png, id=21, 1284.8pt x 803.0pt>
+File: ../trajectories/552.png Graphic file (type png)
+<use ../trajectories/552.png>
+Package pdftex.def Info: ../trajectories/552.png  used on input line 112. on in
+put line 112.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+112.
+<../trajectories/599.png, id=22, 1284.8pt x 803.0pt>
+File: ../trajectories/599.png Graphic file (type png)
+<use ../trajectories/599.png>
+Package pdftex.def Info: ../trajectories/599.png  used on input line 117. on in
+put line 117.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+117.
+<../trajectories/707.png, id=23, 1284.8pt x 803.0pt>
+File: ../trajectories/707.png Graphic file (type png)
+<use ../trajectories/707.png>
+Package pdftex.def Info: ../trajectories/707.png  used on input line 122. on in
+put line 122.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+122.
+<../trajectories/709.png, id=24, 1284.8pt x 803.0pt>
+File: ../trajectories/709.png Graphic file (type png)
+<use ../trajectories/709.png>
+Package pdftex.def Info: ../trajectories/709.png  used on input line 127. on in
+put line 127.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+127.
+<../trajectories/743.png, id=25, 1284.8pt x 803.0pt>
+File: ../trajectories/743.png Graphic file (type png)
+<use ../trajectories/743.png>
+Package pdftex.def Info: ../trajectories/743.png  used on input line 132. on in
+put line 132.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+132.
+<../trajectories/778.png, id=26, 1284.8pt x 803.0pt>
+File: ../trajectories/778.png Graphic file (type png)
+<use ../trajectories/778.png>
+Package pdftex.def Info: ../trajectories/778.png  used on input line 137. on in
+put line 137.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+137.
+<../trajectories/785.png, id=27, 1284.8pt x 803.0pt>
+File: ../trajectories/785.png Graphic file (type png)
+<use ../trajectories/785.png>
+Package pdftex.def Info: ../trajectories/785.png  used on input line 142. on in
+put line 142.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+142.
+<../trajectories/840.png, id=28, 1284.8pt x 803.0pt>
+File: ../trajectories/840.png Graphic file (type png)
+<use ../trajectories/840.png>
+Package pdftex.def Info: ../trajectories/840.png  used on input line 147. on in
+put line 147.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+147.
+<../trajectories/954.png, id=29, 1284.8pt x 803.0pt>
+File: ../trajectories/954.png Graphic file (type png)
+<use ../trajectories/954.png>
+Package pdftex.def Info: ../trajectories/954.png  used on input line 152. on in
+put line 152.
+Package pdftex.def Info: Requested size: 72.83794pt x 45.51906pt on input line 
+152.
+[1{C:/Users/gquis/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <../trajec
+tories/44.png (PNG copy)> <../trajectories/185.png (PNG copy)> <../trajectories
+/189.png (PNG copy)> <../trajectories/193.png (PNG copy)> <../trajectories/208.
+png (PNG copy)> <../trajectories/236.png (PNG copy)> <../trajectories/256.png (
+PNG copy)> <../trajectories/288.png (PNG copy)> <../trajectories/328.png (PNG c
+opy)> <../trajectories/357.png (PNG copy)> <../trajectories/360.png (PNG copy)>
+ <../trajectories/361.png (PNG copy)> <../trajectories/362.png (PNG copy)> <../
+trajectories/376.png (PNG copy)> <../trajectories/379.png (PNG copy)> <../traje
+ctories/392.png (PNG copy)> <../trajectories/489.png (PNG copy)> <../trajectori
+es/500.png (PNG copy)> <../trajectories/503.png (PNG copy)> <../trajectories/50
+8.png (PNG copy)> <../trajectories/552.png (PNG copy)> <../trajectories/599.png
+ (PNG copy)> <../trajectories/707.png (PNG copy)> <../trajectories/709.png (PNG
+ copy)> <../trajectories/743.png (PNG copy)> <../trajectories/778.png (PNG copy
+)> <../trajectories/785.png (PNG copy)> <../trajectories/840.png (PNG copy)> <.
+./trajectories/954.png (PNG copy)>] (cluster0.aux) ) 
 Here is how much of TeX's memory you used:
- 3237 strings out of 493323
- 50968 string characters out of 3139066
- 117104 words of memory out of 3000000
- 6757 multiletter control sequences out of 15000+200000
+ 3274 strings out of 493312
+ 52710 string characters out of 3138899
+ 117941 words of memory out of 3000000
+ 6785 multiletter control sequences out of 15000+200000
  4238 words of font info for 16 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,7n,40p,295b,444s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on cluster0.pdf (1 page, 191801 bytes).
+<C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr12.pfb>
+Output written on cluster0.pdf (1 page, 344216 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
+ 43 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

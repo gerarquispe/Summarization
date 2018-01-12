@@ -1,0 +1,71 @@
+#include <bits/stdc++.h>
+#define ll long long
+#define vi vector<int>
+#define ii pair<int,int>
+#define vii vector<ii>
+#define REPN(i,x,y) for(int i=x;i<y;i++)
+#define REP(i,y) REPN(i,0,y)
+#define REPR(i,y,x) for(int i=y;i>=x;i--)
+#define CLR(A,x) memset(A,x,sizeof(A))
+#define INF (1<<30)
+#define EPS (1e-9)
+#define ones(x) __builtin_popcount(x)
+#define ALL(v) (v).begin(),(v).end()
+#define RALL(v) (v).rbegin(),(v).rend()
+#define pb push_back
+#define mp make_pair
+#define sqr(x) (x)*(x)
+#define dbg(x) cout << #x << " = " << x << endl
+#define dbg2(x,y)cout<<#x<<"="<<x<<" "<<#y<<"="<<y<<endl
+#define dbg3(x,y,z)cout<<#x<<"="<<x<<" "<<#y<<"="<<y<<" "<<#z<<"="<<z<<endl
+#define S(x)scanf("%d\n",&x)
+#define SS(str) scanf("%[^\n]\n",str)
+#define S2(x,y)scanf("%d %d\n",&x,&y)
+#define SC(x)scanf("%d",&x)
+#define SC2(x,y)scanf("%d %d",&x,&y)
+#define P(x)printf("%d\n",x)
+#define SZ(v) v.size()
+#define f first
+#define s second
+#define MOD 100007
+#define MAXN 100005
+using namespace std;
+string i2s(int x) { stringstream ss; ss << x; return ss.str();}
+int s2i(string str) { istringstream ss(str);int nro; ss >> nro; return nro;}
+
+/*Lee un archivo y los puntos NroFrame, id,x y*/
+std::vector<std::string> ReadFile2(std::string cadena) {
+	std::cout << cadena << std::endl;
+	std::string line;
+	std::ifstream myfile(cadena);
+	std::vector<std::string> lista;
+
+	while (std::getline(myfile, line)) { // Ojo lee hasta fin de archivo
+									    // Eliminando la coma para tokenizar
+		 // <<------ ojo si el formato de la ultima linea del file de entrada esta mal da error.
+		while((int)line.find(';')!=-1) line[(int)line.find(',')] = ' ';
+		
+		std::istringstream iss(line);
+		//0,D:\DataSet_Laboratory\people2\1\aprimeros500\2017-04-24_14-19-53~14-20-00_0.trk,23,155
+		int idTrajectory;
+		std::string nameTrajectory;
+		int nroPointsTrajectory;
+		int idCluster;
+		
+		iss >> idTrajectory >> nameTrajectory >> nroPointsTrajectory >> idCluster;
+		lista.pb(nameTrajectory);
+	}
+	
+	myfile.close();
+	return lista;
+}
+
+int main(){
+  
+  std::string cadenaEntrada = "C:\\Users\\gquis\\OneDrive\\Documents\\Visual Studio 2015\\Projects\\Summarization\\Kmeans\\IdNamesTrajectoriesOutput.csv";
+  std::vector<std::string> ans = ReadFile2(cadenaEntrada);
+  REP(i,ans.size()){
+    dbg(ans[i]);
+  }
+  return 0;
+}

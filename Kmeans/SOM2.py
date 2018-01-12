@@ -247,13 +247,13 @@ for line in file:
     
 print("cont="+str(cont))
 labels_true = np.zeros(n) 
-#print(X)
+print(X)
 
 #####################################################
 #Train a dimnxdimm SOM with 400 iterations
 dimn = 4
 dimm = 8
-som = SOM(dimn, dimm, dim, 200)
+som = SOM(dimn, dimm, dim, 800)
 som.train(X)
  
 #Get output grid

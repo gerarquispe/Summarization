@@ -1,2 +1,10 @@
-Cluster Id:543 Nro.Elements:4
-Cluster Id:173 Nro.Elements:7
+Cluster Id:20 Nro.Elements:1
+Cluster Id:22 Nro.Elements:1
+Cluster Id:229 Nro.Elements:1
+Cluster Id:51 Nro.Elements:2
+Cluster Id:305 Nro.Elements:2
+Cluster Id:307 Nro.Elements:4
+Cluster Id:265 Nro.Elements:5
+Cluster Id:3 Nro.Elements:8
+Cluster Id:374 Nro.Elements:10
+Cluster Id:203 Nro.Elements:14

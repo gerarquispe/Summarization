@@ -1,20 +1,20 @@
 ﻿  Source.cpp
-c:\users\gquis\documents\visual studio 2015\projects\kmeans\kmeans\geometria.h(120): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
-c:\users\gquis\documents\visual studio 2015\projects\kmeans\kmeans\geometria.h(132): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
-c:\users\gquis\documents\visual studio 2015\projects\kmeans\kmeans\geometria.h(141): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
-c:\users\gquis\documents\visual studio 2015\projects\kmeans\kmeans\geometria.h(156): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
-c:\users\gquis\documents\visual studio 2015\projects\kmeans\kmeans\geometria.h(169): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
-c:\users\gquis\documents\visual studio 2015\projects\kmeans\kmeans\geometria.h(198): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
-c:\users\gquis\documents\visual studio 2015\projects\kmeans\kmeans\source.cpp(79): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-c:\users\gquis\documents\visual studio 2015\projects\kmeans\kmeans\source.cpp(103): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-c:\users\gquis\documents\visual studio 2015\projects\kmeans\kmeans\source.cpp(191): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
-c:\users\gquis\documents\visual studio 2015\projects\kmeans\kmeans\source.cpp(442): warning C4101: 'nroFrame': variable local sin referencia
-c:\users\gquis\documents\visual studio 2015\projects\kmeans\kmeans\source.cpp(470): warning C4477: 'printf' : la cadena de formato '%d' requiere un argumento de tipo 'int', pero el argumento variádico 2 tiene el tipo 'unsigned __int64'
-  c:\users\gquis\documents\visual studio 2015\projects\kmeans\kmeans\source.cpp(470): note: considere el uso de ' %zd' en la cadena de formato
-c:\users\gquis\documents\visual studio 2015\projects\kmeans\kmeans\source.cpp(559): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+c:\users\gquis\onedrive\documents\visual studio 2015\projects\summarization\kmeans\geometria.h(120): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+c:\users\gquis\onedrive\documents\visual studio 2015\projects\summarization\kmeans\geometria.h(132): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+c:\users\gquis\onedrive\documents\visual studio 2015\projects\summarization\kmeans\geometria.h(141): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+c:\users\gquis\onedrive\documents\visual studio 2015\projects\summarization\kmeans\geometria.h(156): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+c:\users\gquis\onedrive\documents\visual studio 2015\projects\summarization\kmeans\geometria.h(169): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+c:\users\gquis\onedrive\documents\visual studio 2015\projects\summarization\kmeans\geometria.h(198): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+c:\users\gquis\onedrive\documents\visual studio 2015\projects\summarization\kmeans\source.cpp(79): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\gquis\onedrive\documents\visual studio 2015\projects\summarization\kmeans\source.cpp(103): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\gquis\onedrive\documents\visual studio 2015\projects\summarization\kmeans\source.cpp(191): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
+c:\users\gquis\onedrive\documents\visual studio 2015\projects\summarization\kmeans\source.cpp(442): warning C4101: 'nroFrame': variable local sin referencia
+c:\users\gquis\onedrive\documents\visual studio 2015\projects\summarization\kmeans\source.cpp(470): warning C4477: 'printf' : la cadena de formato '%d' requiere un argumento de tipo 'int', pero el argumento variádico 2 tiene el tipo 'unsigned __int64'
+  c:\users\gquis\onedrive\documents\visual studio 2015\projects\summarization\kmeans\source.cpp(470): note: considere el uso de ' %zd' en la cadena de formato
+c:\users\gquis\onedrive\documents\visual studio 2015\projects\summarization\kmeans\source.cpp(562): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
 c:\program files (x86)\microsoft visual studio 14.0\vc\include\utility(200): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
-  c:\users\gquis\documents\visual studio 2015\projects\kmeans\kmeans\source.cpp(471): note: vea la referencia a la creación de instancias de plantilla de función 'std::pair<int,int>::pair<unsigned __int64,int,void,0>(std::pair<unsigned __int64,int> &&) noexcept' que se está compilando
-  c:\users\gquis\documents\visual studio 2015\projects\kmeans\kmeans\source.cpp(471): note: vea la referencia a la creación de instancias de plantilla de función 'std::pair<int,int>::pair<unsigned __int64,int,void,0>(std::pair<unsigned __int64,int> &&) noexcept' que se está compilando
-c:\users\gquis\documents\visual studio 2015\projects\kmeans\kmeans\geometria.h(267): warning C4715: 'closest': no todas las rutas de acceso de control devuelven un valor
-  Kmeans.vcxproj -> C:\Users\gquis\documents\visual studio 2015\Projects\Kmeans\x64\Debug\Kmeans.exe
-  Kmeans.vcxproj -> C:\Users\gquis\documents\visual studio 2015\Projects\Kmeans\x64\Debug\Kmeans.pdb (Full PDB)
+  c:\users\gquis\onedrive\documents\visual studio 2015\projects\summarization\kmeans\source.cpp(471): note: vea la referencia a la creación de instancias de plantilla de función 'std::pair<int,int>::pair<unsigned __int64,int,void,0>(std::pair<unsigned __int64,int> &&) noexcept' que se está compilando
+  c:\users\gquis\onedrive\documents\visual studio 2015\projects\summarization\kmeans\source.cpp(471): note: vea la referencia a la creación de instancias de plantilla de función 'std::pair<int,int>::pair<unsigned __int64,int,void,0>(std::pair<unsigned __int64,int> &&) noexcept' que se está compilando
+c:\users\gquis\onedrive\documents\visual studio 2015\projects\summarization\kmeans\geometria.h(267): warning C4715: 'closest': no todas las rutas de acceso de control devuelven un valor
+  Kmeans.vcxproj -> C:\Users\gquis\OneDrive\Documents\Visual Studio 2015\Projects\Summarization\x64\Debug\Kmeans.exe
+  Kmeans.vcxproj -> C:\Users\gquis\OneDrive\Documents\Visual Studio 2015\Projects\Summarization\x64\Debug\Kmeans.pdb (Full PDB)

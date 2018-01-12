@@ -31,7 +31,7 @@
 #define MY_COLOR_SIENNA CV_RGB(160,82,45)
 
 std::string i2s(int nro) { std::stringstream ss; ss << nro; return ss.str(); }
-int s2i(string str) { istringstream ss(str); int nro; ss >> nro; return nro; }
+int s2i(std::string str) { istringstream ss(str); int nro; ss >> nro; return nro; }
 
 // Estructura para una trayectoria
 struct trayectoria {
@@ -214,7 +214,7 @@ void main3() {
 
 		//std::vector<trayectoria> vTrajectories - vector con trayectorias ahora es global
 		// Leer todos los files de esta dir
-		std::string Endereco = "D:\\DataSet_Laboratory\\people2\\" + i2s(k);
+		std::string Endereco = "E:\\DataSet_Laboratory\\people2\\" + i2s(k);
 
 		//lista todos los archivos de una carpeta sin excepcion de tipo
 		std::vector<std::string> listDir = ReadFiles(Endereco);
@@ -508,10 +508,12 @@ void firstSol() {
 	// Call clustering method
 	// system("python ClusteringMeanShift.py");
 	// system("python ClusteringDBSCAN.py");
-	// system("python ClusteringAffinity.py ");
-	// system("python ClusteringKmeans.py ");
+	// system("python ClusteringAffinity.py");
+	// system("python ClusteringKmeans.py");
 
-	system("activate tensorflow && python SOM2.py");
+	//std::cout << "Entrando SOM2 " << std::endl;
+	//system("activate tensorflow && python SOM2.py");  // <-------------Parte pesada del codigo
+	//std::cout << "Saliendo SOM2 " << std::endl;
 
 	// Process clustering output ClustersOutPut.txt
 	processOutputClustering(dimFeature); // Escribimos los clusters en files
@@ -520,13 +522,14 @@ void firstSol() {
 	// la parte de generarPDF.py ya que las respuestas, se encontrarian en archivos diferentes de cada carpeta cluster
 	// Aqui vendría el clustering de clustering.
 	// se podria eliminar los archivos .cluster o carpetas (sugerencia)
-	system("python ClusteringDeClustering.py");
+
+	system("python ClusteringDeClustering.py");  // <---------------------------- (por ahora no)
 
 	// Aqui llamamos al archivo en python para escribir los .tex
-	//system("python PresentClusters.py"); // construye el archivo .tex
+	system("python PresentClusters.py"); // construye el archivo .tex
 
 	// Aqui si es posible ejecutamos los .tex comandos
-	//system("cd clusters\\  && python generarPDF.py"); // Sólo genera pdf's
+	system("cd clusters\\  && python generarPDF.py"); // Sólo genera pdf's
 
 	return;
 }
@@ -641,7 +644,7 @@ void createCSV() {
 	dbg(vTrajectories.size());
 	dbg(clustersIDs.size());
 	// vamos a leer los archivos de cada cluster
-	std::string Endereco = "C:\\Users\\gquis\\Documents\\Visual Studio 2015\\Projects\\Kmeans\\Kmeans\\clusters\\";
+	std::string Endereco = "C:\\Users\\gquis\\OneDrive\\Documents\\Visual Studio 2015\\Projects\\Summarization\\Kmeans\\clusters";
 
 	//lista todos los archivos de una carpeta sin excepcion de tipo
 	std::vector<std::string> listDir = ReadFiles(Endereco);
@@ -664,7 +667,6 @@ void createCSV() {
 					clustersIDs[id] = clusterId;
 				}
 				myfile.close();
-
 		}
 	}
 
@@ -682,16 +684,18 @@ void createCSV() {
 
 int main()
 {
+
 	// La primera partes llama a main2() donde se procesa los archivos de trayectorias
 	//main2(); // En esta parte escribimos files para ser procesados output.txt
 	main3(); // para texto .trk, NO funciona con .txt
 
 	// Escogemos el modelo a utilizar
-	// firstSol(); // Clustering de clustering
+	firstSol(); // Clustering de clustering
 	// secondSol();
 	
 	// Creando la tabla de excel para su configuracion
 	createCSV(); // recorriendo archivos.
 
 	return 0;
+
 }
